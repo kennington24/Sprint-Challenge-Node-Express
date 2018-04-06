@@ -2,7 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
-const actionModel = require('../data/helpers/actionModel.js');
+const actionModel = require('../helpers/actionModel.js');
 
 router.get('/', (req, res) => {
   actionModel

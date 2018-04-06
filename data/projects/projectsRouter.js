@@ -2,7 +2,7 @@ const express = require('express');
 
 const router = express.Router();
 
-const projectModel = require('../data/helpers/projectModel.js');
+const projectModel = require('../helpers/projectModel');
 
 // /api/projects
 router.get('/', (req, res) => {
